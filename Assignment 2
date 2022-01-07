@@ -1,0 +1,10 @@
+li=[]
+n=int(input("Enter size of list "))
+for i in range(0,n):
+    it=int(input("Enter element of list "))
+    li.append(it)
+print("Positive numbers in list are: ")
+
+for i in li:   
+    if i >= 0:
+       print(i, end = " ")
