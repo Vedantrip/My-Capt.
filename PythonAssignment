@@ -1,0 +1,12 @@
+n = int(input("Enter the value of 'n': "))
+a = 0
+b = 1
+sum = 0
+ct = 1
+print("Fibonacci Series  ", end = " ")
+while(ct <= n):
+  print(sum, end = " ")
+  ct += 1
+  a = b
+  b = sum
+  sum = a + b 
